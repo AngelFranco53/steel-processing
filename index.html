@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vulcan Steel Processing - Líderes en corte láser CNC, doblado de precisión y distribución de bobinas de acero al carbono, inoxidable y galvanizado. Soluciones siderúrgicas globales.">
+  <meta name="keywords" content="procesamiento de acero, corte laser cnc, doblado cnc, bobinas de acero, acero inoxidable, aceros industriales, vulcan steel">
+  <title>Vulcan Steel Processing | Corte y Procesamiento de Precisión</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2L2 22h20L12 2zm0 4l6.5 13H5.5L12 6z' fill='%23ff5500'/%3E%3C/svg%3E">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header / Navigation Bar -->
+  <header class="header" id="mainHeader">
+    <div class="container">
+      <a href="#inicio" class="logo" id="headerLogo">
+        <!-- Custom Steel Industry SVG Logo -->
+        <svg class="logo-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2L2 22h3.5l3.5-7h6l3.5 7h3.5L12 2zm-2.25 10L12 7.5l2.25 4.5h-4.5z"/>
+        </svg>
+        VULCAN<span>STEEL</span>
+      </a>
+      
+      <nav class="nav-menu" id="navMenu">
+        <a href="#inicio" class="nav-link active" id="navLinkInicio" data-i18n="nav_home">Inicio</a>
+        <a href="#nosotros" class="nav-link" id="navLinkNosotros" data-i18n="nav_about">Nosotros</a>
+        <a href="#servicios" class="nav-link" id="navLinkServicios" data-i18n="nav_services">Servicios</a>
+        <a href="#productos" class="nav-link" id="navLinkProductos" data-i18n="nav_products">Productos</a>
+        <a href="#instalaciones" class="nav-link" id="navLinkInstalaciones" data-i18n="nav_facilities">Instalaciones</a>
+        <a href="#contacto" class="nav-link" id="navLinkContacto" data-i18n="nav_contact">Contacto</a>
+      </nav>
+      
+      <div class="lang-selector" id="langSelector">
+        <button class="lang-btn active" id="langBtnEs" data-lang="es">ES</button>
+        <button class="lang-btn" id="langBtnEn" data-lang="en">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg">
+      <img src="assets/images/hero_factory.png" alt="Planta siderúrgica moderna Vulcan Steel" id="heroBgImg">
+    </div>
+    <div class="container">
+      <div class="hero-content reveal" id="heroContent">
+        <span class="hero-tag" data-i18n="hero_tagline">TECNOLOGÍA SIDERÚRGICA DE PRECISIÓN</span>
+        <h1 class="hero-title" id="mainTitle">
+          <span data-i18n="hero_title_1">Procesamos el Acero que</span> <br>
+          <span class="highlight" data-i18n="hero_title_2">Construye el Futuro</span>
+        </h1>
+        <p class="hero-desc" id="heroDescription" data-i18n="hero_desc">
+          Líderes en corte, doblado y acabados metalúrgicos con maquinaria CNC de última generación. Soluciones robustas y precisas para la industria global.
+        </p>
+        <div class="hero-actions" id="heroActions">
+          <a href="#contacto" class="btn btn-primary" id="heroCtaPrimary" data-i18n="hero_cta_primary">Cotizar Proyecto</a>
+          <a href="#servicios" class="btn btn-secondary" id="heroCtaSecondary" data-i18n="hero_cta_secondary">Nuestra Capacidad</a>
+        </div>
+        
+        <div class="hero-trust" id="heroTrustBadges">
+          <div class="trust-item" id="trustItem1">
+            <svg class="trust-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+            </svg>
+            <span class="trust-text">ISO 9001:2015 Cert.</span>
+          </div>
+          <div class="trust-item" id="trustItem2">
+            <svg class="trust-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+            </svg>
+            <span class="trust-text">CE Standard</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Glassmorphic Stats Card -->
+      <div class="hero-card reveal reveal-right" id="heroStatsCard">
+        <h2 class="hero-card-title" id="statsCardTitle" data-i18n="about_cert_title">Certificaciones y Calidad</h2>
+        <div class="hero-stat-list" id="heroStatList">
+          <div class="hero-stat-item" id="statItemYears">
+            <span class="hero-stat-num">15+</span>
+            <span class="hero-stat-label" data-i18n="stat_years">Años de Experiencia</span>
+          </div>
+          <div class="hero-stat-item" id="statItemCapacity">
+            <span class="hero-stat-num">50,000+</span>
+            <span class="hero-stat-label" data-i18n="stat_capacity">Capacidad Anual (Tons)</span>
+          </div>
+          <div class="hero-stat-item" id="statItemCountries">
+            <span class="hero-stat-num">30+</span>
+            <span class="hero-stat-label" data-i18n="stat_countries">Países Exportados</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="nosotros">
+    <div class="container">
+      <div class="about-grid" id="aboutGrid">
+        <div class="about-image reveal reveal-left" id="aboutImageWrapper">
+          <img src="assets/images/hero_factory.png" alt="Instalaciones de Vulcan Steel" id="aboutMainImg">
+        </div>
+        <div class="about-content reveal" id="aboutContent">
+          <span class="section-tag" data-i18n="about_title">LIDERAZGO INDUSTRIAL Y PRECISIÓN</span>
+          <h2 class="section-title" id="aboutTitle" data-i18n="about_subtitle">Compromiso Inquebrantable con la Calidad del Acero</h2>
+          <p class="section-desc" id="aboutDesc1" data-i18n="about_desc_1">
+            En Vulcan Steel Processing, transformamos el acero en la espina dorsal del progreso industrial. Con más de 15 años en el mercado global, nos especializamos en ofrecer procesamiento de precisión que cumple con los estándares internacionales más exigentes.
+          </p>
+          <p class="section-desc" style="margin-top: -24px;" id="aboutDesc2" data-i18n="about_desc_2">
+            Nuestras instalaciones de última generación albergan maquinaria de corte por láser de fibra, dobladoras CNC de gran tonelaje y líneas de aplanado de precisión para entregar productos impecables con tolerancias mínimas.
+          </p>
+          
+          <div class="cert-box" id="certBox">
+            <svg class="cert-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/>
+            </svg>
+            <div>
+              <h3 class="cert-title" data-i18n="about_cert_title">Certificaciones y Calidad Garantizada</h3>
+              <p class="cert-desc" data-i18n="about_cert_desc">Cada etapa del proceso es auditada bajo normas de calidad internacionales para garantizar la integridad estructural de cada pieza.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section section-alternate" id="servicios">
+    <div class="container">
+      <div style="text-align: center; display: flex; flex-direction: column; align-items: center;" id="servicesHeader">
+        <span class="section-tag" data-i18n="services_tag">NUESTRAS CAPACIDADES</span>
+        <h2 class="section-title" data-i18n="services_title">Procesamiento de Acero de Clase Mundial</h2>
+        <p class="section-desc" id="servicesIntroduction">
+          Ofrecemos una gama integral de servicios de conformado y corte de metales con tecnología avanzada para responder a proyectos complejos y de gran escala.
+        </p>
+      </div>
+      
+      <div class="services-grid" id="servicesGrid">
+        <!-- Service 1: Laser Cutting -->
+        <div class="service-card reveal" id="serviceLaser">
+          <div class="service-icon-wrapper">
+            <svg class="service-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 12h8v2H2zm12 0h8v2h-8zm-4-6h4v12h-4zm2 2v8h-2V8h2zM4 4h16v2H4zm0 14h16v2H4z"/>
+            </svg>
+          </div>
+          <h3 class="service-card-title" data-i18n="services_laser_title">Corte Láser CNC</h3>
+          <p class="service-card-desc" data-i18n="services_laser_desc">
+            Corte de alta velocidad con láser de fibra para planchas de gran espesor en acero al carbono e inoxidable, asegurando bordes perfectos sin rebabas.
+          </p>
+        </div>
+
+        <!-- Service 2: Bending -->
+        <div class="service-card reveal" id="serviceBending">
+          <div class="service-icon-wrapper">
+            <svg class="service-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10H7v-2h10v2z"/>
+            </svg>
+          </div>
+          <h3 class="service-card-title" data-i18n="services_bending_title">Doblado de Alta Precisión</h3>
+          <p class="service-card-desc" data-i18n="services_bending_desc">
+            Plegado y doblado CNC de láminas metálicas de hasta 12 metros de longitud, con control de ángulo computarizado para geometrías complejas.
+          </p>
+        </div>
+
+        <!-- Service 3: Slitting -->
+        <div class="service-card reveal" id="serviceSlitting">
+          <div class="service-icon-wrapper">
+            <svg class="service-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10.29 8.29L18 16v2h-2l-7.71-7.71-3.79 3.79V5h9.29L10.29 8.29zM20 4h-5v2h5v12h-5v2h5c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2z"/>
+            </svg>
+          </div>
+          <h3 class="service-card-title" data-i18n="services_slitting_title">Corte Longitudinal (Slitting)</h3>
+          <p class="service-card-desc" data-i18n="services_slitting_desc">
+            División de bobinas anchas en cintas o bobinas estrechas de anchos específicos, manteniendo tolerancias micrométricas en el ancho resultante.
+          </p>
+        </div>
+
+        <!-- Service 4: Leveling -->
+        <div class="service-card reveal" id="serviceLeveling">
+          <div class="service-icon-wrapper">
+            <svg class="service-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 9h16v2H4zm0 4h16v2H4z"/>
+            </svg>
+          </div>
+          <h3 class="service-card-title" data-i18n="services_leveling_title">Aplanado y Corte a Medida</h3>
+          <p class="service-card-desc" data-i18n="services_leveling_desc">
+            Procesamiento de bobinas para eliminar tensiones internas y ofrecer láminas de acero perfectamente planas, cortadas a la longitud exacta que solicite.
+          </p>
+        </div>
+
+        <!-- Service 5: Surface Treatment -->
+        <div class="service-card reveal" id="serviceSurface">
+          <div class="service-icon-wrapper">
+            <svg class="service-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9zm0 15c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"/>
+            </svg>
+          </div>
+          <h3 class="service-card-title" data-i18n="services_surface_title">Tratamiento de Superficie</h3>
+          <p class="service-card-desc" data-i18n="services_surface_desc">
+            Acabados profesionales que incluyen galvanizado, granallado, decapado, pulido y recubrimientos protectores contra la corrosión.
+          </p>
+        </div>
+
+        <!-- Service 6: Logistics -->
+        <div class="service-card reveal" id="serviceLogistics">
+          <div class="service-icon-wrapper">
+            <svg class="service-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4zM6 18.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm12 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM17.5 9.5l1.8 2.5H16V9.5h1.5z"/>
+            </svg>
+          </div>
+          <h3 class="service-card-title" data-i18n="services_logistics_title">Logística y Distribución</h3>
+          <p class="service-card-desc" data-i18n="services_logistics_desc">
+            Embalaje industrial robusto y despacho marítimo o terrestre global con trazabilidad completa de embarques para entregas puntuales.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section class="section" id="productos">
+    <div class="container">
+      <div style="text-align: center; display: flex; flex-direction: column; align-items: center;" id="productsHeader">
+        <span class="section-tag" data-i18n="products_tag">CATÁLOGO DE PRODUCTOS</span>
+        <h2 class="section-title" data-i18n="products_title">Suministro de Aceros Certificados</h2>
+        <p class="section-desc" id="productsIntroduction">
+          Disponemos de un amplio stock de acero crudo y semiprocesado que cumple con las certificaciones internacionales más estrictas.
+        </p>
+      </div>
+
+      <div class="products-grid" id="productsGrid">
+        <!-- Product 1: Carbon Steel -->
+        <div class="product-card reveal" id="productCarbon">
+          <div class="product-img">
+            <img src="assets/images/steel_coils.png" alt="Bobinas de Acero al Carbono" id="productCarbonImg">
+            <span class="product-badge" data-i18n="product_carbon_title">Acero al Carbono</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-card-title" data-i18n="product_carbon_title">Acero al Carbono</h3>
+            <p class="product-card-desc" data-i18n="product_carbon_desc">
+              Láminas, placas, bobinas y perfiles estructurales de alta resistencia para la construcción e ingeniería pesada.
+            </p>
+            <a href="#contacto" class="product-link" id="productCarbonLink">
+              <span data-i18n="product_cta">Ver Ficha Técnica</span>
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Product 2: Laser precision output -->
+        <div class="product-card reveal" id="productStainless">
+          <div class="product-img">
+            <img src="assets/images/laser_cutting.png" alt="Planchas de Acero Inoxidable" id="productStainlessImg">
+            <span class="product-badge" data-i18n="product_stainless_title">Acero Inoxidable</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-card-title" data-i18n="product_stainless_title">Acero Inoxidable</h3>
+            <p class="product-card-desc" data-i18n="product_stainless_desc">
+              Materiales en grados 304, 316 y 430 con diversos acabados superficiales (espejo, cepillado, satinado) para alimentación y química.
+            </p>
+            <a href="#contacto" class="product-link" id="productStainlessLink">
+              <span data-i18n="product_cta">Ver Ficha Técnica</span>
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Facilities / Production Capacity Section -->
+  <section class="section section-alternate" id="instalaciones">
+    <div class="container">
+      <div class="facilities-grid" id="facilitiesGrid">
+        <div class="about-content reveal" id="facilitiesContent">
+          <span class="section-tag" data-i18n="facilities_tag">TECNOLOGÍA E INFRAESTRUCTURA</span>
+          <h2 class="section-title" id="facilitiesTitle" data-i18n="facilities_title">Fábrica y Capacidad de Producción</h2>
+          <p class="section-desc" id="facilitiesDesc" data-i18n="facilities_desc">
+            Nuestra planta cuenta con más de 45,000 metros cuadrados equipada con la tecnología de procesamiento de metales más avanzada del mundo, lo que nos permite mantener un stock constante de 80,000 toneladas de acero listo para procesar y despachar.
+          </p>
+          
+          <div class="facilities-items" id="facilitiesItemList">
+            <div class="facility-item" id="facilityItem1">
+              <span class="facility-num">01</span>
+              <div>
+                <h3 class="facility-detail-title" data-i18n="facilities_item_1_title">Almacenamiento Inteligente</h3>
+                <p class="facility-detail-desc" data-i18n="facilities_item_1_desc">Logística interna optimizada para la manipulación segura de bobinas de hasta 30 toneladas.</p>
+              </div>
+            </div>
+            
+            <div class="facility-item" id="facilityItem2">
+              <span class="facility-num">02</span>
+              <div>
+                <h3 class="facility-detail-title" data-i18n="facilities_item_2_title">Maquinaria Europea CNC</h3>
+                <p class="facility-detail-desc" data-i18n="facilities_item_2_desc">Herramientas de corte y conformado alemanas e italianas que garantizan precisión absoluta.</p>
+              </div>
+            </div>
+
+            <div class="facility-item" id="facilityItem3">
+              <span class="facility-num">03</span>
+              <div>
+                <h3 class="facility-detail-title" data-i18n="facilities_item_3_title">Sustentabilidad y Eficiencia</h3>
+                <p class="facility-detail-desc" data-i18n="facilities_item_3_desc">Sistemas de reciclaje de agua y optimización de retazos para reducir la huella de carbono.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="facilities-image reveal reveal-right" id="facilitiesImageWrapper">
+          <img src="assets/images/steel_coils.png" alt="Instalaciones industriales y almacén de Vulcan Steel" id="facilitiesImg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section & Footer Classic -->
+  <section class="section contact-section" id="contacto">
+    <div class="container">
+      <div style="text-align: center; display: flex; flex-direction: column; align-items: center;" id="contactSectionHeader">
+        <span class="section-tag" data-i18n="contact_tag">HABLEMOS DE TU PROYECTO</span>
+        <h2 class="section-title" data-i18n="contact_title">Solicita una Cotización Personalizada</h2>
+      </div>
+
+      <div class="contact-grid" id="contactGrid">
+        <!-- Inquiry Form -->
+        <div class="contact-form-container reveal reveal-left" id="contactFormContainer">
+          <form id="contactForm" novalidate>
+            <div class="form-group-row">
+              <div class="form-group">
+                <label for="formName" class="form-label" data-i18n="form_name">Nombre Completo *</label>
+                <input type="text" class="form-control" id="formName" data-i18n-placeholder="form_name" placeholder="Nombre Completo *" required>
+              </div>
+              <div class="form-group">
+                <label for="formEmail" class="form-label" data-i18n="form_email">Correo Electrónico *</label>
+                <input type="email" class="form-control" id="formEmail" data-i18n-placeholder="form_email" placeholder="Correo Electrónico *" required>
+              </div>
+            </div>
+
+            <div class="form-group-row">
+              <div class="form-group">
+                <label for="formPhone" class="form-label" data-i18n="form_phone">Teléfono *</label>
+                <input type="tel" class="form-control" id="formPhone" data-i18n-placeholder="form_phone" placeholder="Teléfono *" required>
+              </div>
+              <div class="form-group">
+                <label for="formCompany" class="form-label" data-i18n="form_company">Empresa</label>
+                <input type="text" class="form-control" id="formCompany" data-i18n-placeholder="form_company" placeholder="Empresa">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="formProduct" class="form-label" data-i18n="form_product">Material o Servicio de Interés *</label>
+              <select class="form-control" id="formProduct" required>
+                <option value="" disabled selected data-i18n="form_product_select">Seleccionar opción...</option>
+                <option value="corte-laser" data-i18n="services_laser_title">Corte Láser CNC</option>
+                <option value="doblado-cnc" data-i18n="services_bending_title">Doblado de Alta Precisión</option>
+                <option value="acero-carbono" data-i18n="product_carbon_title">Acero al Carbono</option>
+                <option value="acero-inoxidable" data-i18n="product_stainless_title">Acero Inoxidable</option>
+                <option value="otro" data-i18n="services_surface_title">Tratamientos o Otros</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="formMessage" class="form-label" data-i18n="form_message">Mensaje o Especificaciones Técnicas *</label>
+              <textarea class="form-control" id="formMessage" data-i18n-placeholder="form_message" placeholder="Mensaje o Especificaciones Técnicas *" required></textarea>
+            </div>
+            
+            <p class="form-required-note" data-i18n="form_required_note">* Campos obligatorios</p>
+
+            <button type="submit" class="btn btn-primary" id="formSubmitBtn" style="width: 100%;" data-i18n="form_submit">Enviar Solicitud</button>
+            
+            <div id="formStatus" class="form-status"></div>
+          </form>
+        </div>
+
+        <!-- Corporate Contact Info Panel -->
+        <div class="contact-info-container reveal reveal-right" id="contactInfoPanel">
+          <div class="info-block" id="infoBlockAddress">
+            <h3 class="info-block-title" data-i18n="info_title">Oficina Central</h3>
+            <p class="info-block-content" data-i18n="info_address">Av. Metalurgia Industrial 1024, Parque Industrial Norte</p>
+          </div>
+
+          <div class="info-block" id="infoBlockSchedule">
+            <h3 class="info-block-title" data-i18n="info_schedule_title">Horario de Atención</h3>
+            <p class="info-block-content" data-i18n="info_schedule">Lunes a Viernes: 8:00 AM - 6:00 PM | Sábados: 9:00 AM - 1:00 PM</p>
+          </div>
+
+          <div class="info-block" id="infoBlockChannels">
+            <h3 class="info-block-title" data-i18n="nav_contact">Contacto Directo</h3>
+            <div class="info-contact-links" id="infoLinks">
+              <a href="tel:+521234567890" class="info-link-item" id="infoLinkPhone">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                </svg>
+                +52 1 234 567 890
+              </a>
+              <a href="mailto:contacto@vulcansteel.com?subject=Cotizacion%20de%20Procesamiento%20de%20Acero" class="info-link-item" id="infoLinkEmail">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+                contacto@vulcansteel.com
+              </a>
+              <a href="https://wa.me/521234567890?text=Hola,%20me%20gustar%C3%ADa%20cotizar%20un%20servicio%20de%20procesamiento%20de%20acero." target="_blank" rel="noopener noreferrer" class="info-link-item" id="infoLinkWhatsapp">
+                <!-- Custom WhatsApp SVG Icon -->
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.03 21.09c-1.74 0-3.41-.45-4.89-1.28l-.35-.2-3.64.95.97-3.55-.22-.35A8.96 8.96 0 0 1 2.5 12.03C2.5 7.05 6.55 3 11.53 3c2.43 0 4.7 1 6.38 2.68a8.87 8.87 0 0 1 2.68 6.38c-.01 4.98-4.06 9.03-9.04 9.03zm5.72-6.52c-.31-.15-1.85-.9-2.14-1-.28-.1-.49-.15-.7.15-.21.3-.81.99-.99 1.19-.18.2-.36.22-.68.07-.31-.15-1.34-.49-2.55-1.57-.94-.84-1.58-1.87-1.76-2.18-.18-.3-.02-.47.13-.62.14-.13.31-.36.47-.53.15-.18.21-.31.31-.51.1-.2.05-.38-.02-.53-.08-.15-.7-1.68-.96-2.3-.25-.6-.51-.51-.7-.51-.18-.01-.39-.01-.6-.01-.21 0-.55.08-.84.38-.28.3-1.09 1.07-1.09 2.6 0 1.53 1.11 3.01 1.27 3.22.15.21 2.19 3.34 5.3 4.68.74.32 1.31.51 1.76.65.74.24 1.42.2 1.95.12.6-.09 1.85-.75 2.11-1.48.26-.73.26-1.36.18-1.48-.08-.12-.28-.2-.59-.35z"/>
+                </svg>
+                WhatsApp Directo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="mainFooter">
+    <div class="container">
+      <div class="footer-content" id="footerContent">
+        <div class="footer-logo" id="footerLogo">
+          VULCAN<span>STEEL</span>
+        </div>
+        <p class="footer-rights" id="footerRights" data-i18n="footer_rights">
+          &copy; 2026 Vulcan Steel Processing. Todos los derechos reservados.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING ACTION BUTTON (FAB) -->
+  <div class="fab-container" id="contactFabContainer">
+    <!-- Sub buttons menu (appears when active) -->
+    <div class="fab-menu" id="fabMenu">
+      <!-- WhatsApp channel -->
+      <div class="fab-item" id="fabItemWhatsapp">
+        <span class="fab-label" data-i18n="fab_whatsapp">Escríbenos por WhatsApp</span>
+        <a href="https://wa.me/521234567890?text=Hola,%20me%20gustar%C3%ADa%20cotizar%20un%20servicio%20de%20procesamiento%20de%20acero." target="_blank" rel="noopener noreferrer" class="fab-sub-btn fab-whatsapp-btn" id="fabSubBtnWhatsapp" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12.03 21.09c-1.74 0-3.41-.45-4.89-1.28l-.35-.2-3.64.95.97-3.55-.22-.35A8.96 8.96 0 0 1 2.5 12.03C2.5 7.05 6.55 3 11.53 3c2.43 0 4.7 1 6.38 2.68a8.87 8.87 0 0 1 2.68 6.38c-.01 4.98-4.06 9.03-9.04 9.03zm5.72-6.52c-.31-.15-1.85-.9-2.14-1-.28-.1-.49-.15-.7.15-.21.3-.81.99-.99 1.19-.18.2-.36.22-.68.07-.31-.15-1.34-.49-2.55-1.57-.94-.84-1.58-1.87-1.76-2.18-.18-.3-.02-.47.13-.62.14-.13.31-.36.47-.53.15-.18.21-.31.31-.51.1-.2.05-.38-.02-.53-.08-.15-.7-1.68-.96-2.3-.25-.6-.51-.51-.7-.51-.18-.01-.39-.01-.6-.01-.21 0-.55.08-.84.38-.28.3-1.09 1.07-1.09 2.6 0 1.53 1.11 3.01 1.27 3.22.15.21 2.19 3.34 5.3 4.68.74.32 1.31.51 1.76.65.74.24 1.42.2 1.95.12.6-.09 1.85-.75 2.11-1.48.26-.73.26-1.36.18-1.48-.08-.12-.28-.2-.59-.35z"/>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Phone call channel -->
+      <div class="fab-item" id="fabItemPhone">
+        <span class="fab-label" data-i18n="fab_phone">Llámanos ahora</span>
+        <a href="tel:+521234567890" class="fab-sub-btn fab-phone-btn" id="fabSubBtnPhone" aria-label="Phone Call">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Email channel -->
+      <div class="fab-item" id="fabItemEmail">
+        <span class="fab-label" data-i18n="fab_email">Envíanos un correo</span>
+        <a href="mailto:contacto@vulcansteel.com?subject=Cotizacion%20de%20Procesamiento%20de%20Acero" class="fab-sub-btn fab-email-btn" id="fabSubBtnEmail" aria-label="Send Email">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Main toggle button -->
+    <button class="fab-main-btn" id="fabToggle" aria-label="Expand Contact Menu">
+      <!-- Chat icon -->
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="fabIcon">
+        <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Translation Dictionary -->
+  <script src="translations.js"></script>
+  <!-- Main Script -->
+  <script src="app.js"></script>
+</body>
+</html>
