@@ -75,8 +75,8 @@ const translations = {
     "en": "Unwavering Commitment to Steel Quality"
   },
   "about_desc_1": {
-    "es": "En Vulcan Steel Processing, transformamos el acero en la espina dorsal del progreso industrial. Con más de 15 años en el mercado global, nos especializamos en ofrecer procesamiento de precisión que cumple con los estándares internacionales más exigentes.",
-    "en": "At Vulcan Steel Processing, we transform steel into the backbone of industrial progress. With over 15 years in the global market, we specialize in offering precision processing that meets the most demanding international standards."
+    "es": "En MetalFe, transformamos el acero en la espina dorsal del progreso industrial. Con más de 15 años en el mercado global, nos especializamos en ofrecer procesamiento de precisión que cumple con los estándares internacionales más exigentes.",
+    "en": "At MetalFe, we transform steel into the backbone of industrial progress. With over 15 years in the global market, we specialize in offering precision processing that meets the most demanding international standards."
   },
   "about_desc_2": {
     "es": "Nuestras instalaciones de última generación albergan maquinaria de corte por láser de fibra, dobladoras CNC de gran tonelaje y líneas de aplanado de precisión para entregar productos impecables con tolerancias mínimas.",
@@ -305,8 +305,8 @@ const translations = {
     "en": "Monday to Friday: 8:00 AM - 6:00 PM | Saturdays: 9:00 AM - 1:00 PM"
   },
   "footer_rights": {
-    "es": "Todos los derechos reservados. Vulcan Steel Processing.",
-    "en": "All rights reserved. Vulcan Steel Processing."
+    "es": "Todos los derechos reservados. MetalFe.",
+    "en": "All rights reserved. MetalFe."
   },
 
   // FAB tooltips
